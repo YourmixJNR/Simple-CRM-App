@@ -49,4 +49,10 @@ function showChart() {
   })
 }
 
-window.showChart = showChart();
+window.showChart = showChart;
+
+window.addEventListener('DOMContentLoaded', () => {
+
+  showChart();
+  
+});
