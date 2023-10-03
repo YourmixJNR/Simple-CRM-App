@@ -1,6 +1,6 @@
 /* globals Chart:false */
 
-(() => {
+function showChart() {
   'use strict'
 
   // Graphs
@@ -48,4 +48,5 @@
     }
   })
 }
-)()
+
+window.showChart = showChart();
