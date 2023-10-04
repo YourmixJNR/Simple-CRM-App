@@ -1,13 +1,19 @@
 /* Custom Style */
 
+.custom-cb:focus {
+    outline: none !important;
+}
+  
 .btn-close:focus-within {
     box-shadow: none !important;
+    outline: none !important;
+    border-color: none !important;
+}
+
+label {
+    line-height: 3em !important;
 }
 
 .form-control:focus {
     box-shadow: none !important;
-}
-
-form {
-    line-height: 3em;
 }
