@@ -1,2 +1,13 @@
 /* Custom Style */
 
+.btn-close:focus-within {
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+form {
+    line-height: 3em;
+}
