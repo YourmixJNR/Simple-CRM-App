@@ -1,1 +1,0 @@
-Simple Customer Relationship Manager(CRM) App
