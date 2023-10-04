@@ -24,7 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Error
     request.onerror = function(event){
-        console.log('Error: ' `${event.target.errorCode}`);
+		console.log('Error', event.target.error.name);
     }
     
 });
+
+// Add Cus
